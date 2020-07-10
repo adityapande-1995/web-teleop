@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="css/mystyle.css")}}">
+        <script src="{{ url_for('static', filename="js/myscript.js")}}"></script>
+        <link rel="shortcut icon" href="">
+    </head>
+    <body>
+        <div class="grid_container">
+        <div class="side_btns">
+        <button class="mybutton" onmouseup="l_rel()" onmousedown="l_pre()"> <- </button>
+        <button class="mybutton" onmouseup="r_rel()" onmousedown="r_pre()"> -> </button>
+        </div>
+        <div class="fwd_btns">
+        <button class="mybutton" onmouseup="u_rel()" onmousedown="u_pre()"> up </button>
+        <button class="mybutton" onmouseup="d_rel()" onmousedown="d_pre()"> down </button>
+        </div>
+        </div>
+
+    </body>
+</html>
+
+
